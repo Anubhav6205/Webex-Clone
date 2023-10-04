@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="my-bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="main-container vphw ">
+    <div class="navbar flex h10 align-center padding-nav bg-lightest-grey">
+      <div class="navbar-left flex flex-1 gap-20 align-center">
+        <div class="name-logo">
+          <div class="border-50 padding-10 alignVH text-white bg-grey">AG</div>
+        </div>
+        <div class="add-logo border-50 alignVH bg-white">+</div>
+        <div class="search alignVH gap-5 padding-10 bg-light-grey w-50 justify-space-bet ">
+          <i class="fa fa-search"></i>
+          <input type="text" class="search-input bg-light-grey flex-1 padding-l-5" placeholder="Search, meet and call"></input>
+        </div>
+      </div>
+      <div class="navbar-right flex-1">
+        <div class="connect-logo flex justify-end">
+          <i class="fa fa-wifi"></i>
+        </div>
+      </div>
+    </div>
+    <div class="sub-container flex h100">
+      <div class="container-left bg-blue flex-1 flex flex-dir-col gap-15 padding-15">
+        <div class="contacts hover padding-10 border-30">
+          <i class="fa fa-address-book fs-10 text-white padding-h-10" style="
+            font-size: 20px;"></i>
+          <span class="text-white fs-15">Contacts</span>
+        </div>
+        <div class="callings hover padding-10 border-30">
+          <i class="fa fa-phone fs-10 text-white padding-h-10" style="
+            font-size: 20px;"></i>
+          <span class="text-white fs-15">Callings</span>
+        </div>
+        <div class="meetings hover padding-10 border-30">
+          <i class="fa fa-calendar fs-10 text-white padding-h-10" style="
+            font-size: 20px;"></i>
+          <span class="text-white fs-15">Meetings</span>
+        </div>
+        <div class=" insights personal-insights hover padding-10 border-30">
+          <i class="fa fa-line-chart text-white padding-h-10" style="
+            font-size: 16px;"></i>
+          <span class="text-white fs-15">Personal Insights</span>
+        </div>
+      </div>
+      <div class="container-right flex-5 padding-15" >
+        <iframe src="./pages/insights.html" height="100%" width="100%" style="outline: none; border: none;" id="change-frame">
+
+
+       </iframe>
+    </div>
+</body>
+
+<script src="routing.js"></script>
+
+</html>

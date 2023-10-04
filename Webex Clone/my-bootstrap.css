@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+
+   
+}
+
+
+/*HEIGHT*/
+
+.h10{
+    height:6vh;
+}
+
+
+.h100{
+    height:91.6vh
+}
+
+
+
+  
+
+
+/*ALLIGNMENT*/
+
+.alignVH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-space-even{
+    justify-content: space-evenly;
+}
+
+.justify-space-bet{
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+
+
+.flex-dir-col
+{
+    flex-direction: column;
+}
+
+
+/*BACKGROUNDS*/
+.bg-purple
+{
+    background-color: purple;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+
+.bg-blue{
+    background-color: rgb(20, 20, 130);
+}
+
+
+.bg-light-grey
+{
+    background-color: lightgray;
+}
+
+.bg-lighter-grey{
+    background-color: rgb(228, 228, 228);
+}
+
+.bg-lightest-grey{
+    background-color: rgb(244, 243, 243);
+}
+
+
+.bg-green{
+    background-color: rgb(0, 128, 102);
+}
+
+
+/*FONT COLORS*/
+
+.text-white{
+    color: rgb(250, 250, 250);
+}
+
+.text-black{
+    color: rgb(0, 0, 0);
+}
+
+
+/*BORDER RADIUS*/
+
+.border-50{
+    border-radius:50%;
+    height:35px;
+    width:35px;
+    border:1px solid grey
+   
+}
+
+.border-10{
+    border-radius:10px;
+}
+
+
+.border-30{
+    border-radius:30px;
+}
+
+
+/*PADDING*/
+
+.padding-5{
+    padding:5px;
+}
+.padding-10{
+    padding:10px;
+}
+.padding-15{
+    padding:15px;
+}
+.padding-20{
+    padding:20px;
+}
+
+.padding-25{
+    padding:25px;
+}
+.padding-30{
+    padding:30px;
+}
+
+.padding-h-10{
+    padding:0 12px;
+
+}
+
+.padding-l-5{
+    padding-left:5px
+}
+
+.padding-l-20{
+    padding-left:20px;
+}
+
+.padding-wh{
+    padding:13px 12px;
+}
+
+.padding-wh-sub{
+    padding:5px 14px;
+}
+
+.padding-nav{
+    padding:30px 20px;
+}
+
+
+/*GAP*/
+
+.gap-5{
+    gap:5px;
+}
+
+.gap-10{
+    gap:10px;
+
+}
+
+.gap-15{
+    gap:15px;
+}
+
+.gap-20{
+    gap:20px;
+}
+
+/*MARGIN*/
+
+.mt-1{
+    margin-top:1vh;
+}
+
+.mt-2{
+    margin-top:2vh;
+}
+
+.mt-10{
+    margin:10px;
+}
+
+
+/*WIDTH*/
+.w-50{
+    width:50%;
+
+}
+
+
+
+/*FLEX BASIS, SHRINK*/
+
+.flex-1 {
+    flex: 1;
+  }
+  
+  .flex-2 {
+    flex: 2;
+  }
+  
+  .flex-3 {
+    flex: 3;
+  }
+  
+  .flex-4 {
+    flex: 4;
+  }
+  
+  .flex-5 {
+    flex: 5;
+  }
+  
+
+
+  /*OTHERS*/
+
+  .search{
+   
+    border-radius: 50px;
+  
+   
+
+  }
+
+  .search-input{
+
+    outline: none;
+    border:none;
+
+
+  }
+
+  i{
+    cursor: pointer;
+  }
+
+  /*HOVER*/
+
+  .hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+  .hover:hover{
+    
+     background-color: rgba(255, 255, 255, 0.29);
+  }
+
+  .hover-dark{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hover-dark:hover{
+    
+     background-color: rgba(0, 0, 0, 0.29);
+  }
+
+  /*FONT SIZE*/
+
+ .fs-10{
+    font-size:10px;
+ }
+
+ .fs-13{
+    font-size:13px;
+ }
+
+ .fs-15{
+    font-size: 15px;
+ }
+
+
+ /*FONT WEIGHT*/
+.fw-bold{
+    font-weight: bold;
+}
+
+
+/*BORDER*/
+
+.border{
+    border:1px solid grey;
+}
+
+
+/*OVERFLOW*/
+
+.over-scoll{
+    display: block;
+  overflow-y: scroll;
+}
+
+
+
+/*SCROLL BAR*/
+
+::-webkit-scrollbar {
+  width: 10px;
+ 
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #888;
+}
+
+
+
+/*TEXT ALIGN*/
+
+.text-center{
+    text-align: center;
+}
